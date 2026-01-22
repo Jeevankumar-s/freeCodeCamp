@@ -176,8 +176,7 @@ const schema = Joi.object().keys({
       challengeTypes.step,
       challengeTypes.video,
       challengeTypes.multipleChoice,
-      challengeTypes.fillInTheBlank,
-      challengeTypes.review
+      challengeTypes.fillInTheBlank
     ],
     then: Joi.string().allow(''),
     otherwise: Joi.string().required()
